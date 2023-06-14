@@ -3,7 +3,7 @@ import { PlacesContext } from "./PlacesContext";
 import { placesReducer } from './placesReducer';
 import { getUserLocation } from '../../helpers';
 import { searchApi } from '../../apis';
-import { Feature, PlacesResponse } from '../../interfaces';
+import { Feature, PlacesResponse } from '../../interfaces/places';
 
 export interface IPlacesState {
   isLoading: boolean;

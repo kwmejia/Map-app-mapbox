@@ -1,4 +1,4 @@
-import { Feature } from "../../interfaces";
+import { Feature } from "../../interfaces/places";
 import { IPlacesState } from "./PlacesProvider";
 
 type TPlacesAction =

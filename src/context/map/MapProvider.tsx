@@ -4,7 +4,7 @@ import { useReducer, useContext, useEffect } from 'react';
 import { mapReducer } from "./MapReducer";
 import { PlacesContext } from "..";
 import { directionsApi } from "../../apis";
-import { DirectionsResponse } from "../../interfaces";
+import { DirectionsResponse } from "../../interfaces/directions";
 
 
 export interface MapState {
