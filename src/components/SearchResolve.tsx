@@ -58,7 +58,7 @@ export const SearchResolve = () => {
               className={`btn btn-sm ${activeId === place.id ? 'btn-outline-light' : 'btn-outline-primary'} `}
               onClick={() => getRoute(place)}
             >
-              Direcciones
+              Mostrar Ruta
             </button>
           </li>
         ))
