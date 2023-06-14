@@ -1,5 +1,5 @@
 import { useContext, useState } from 'react';
-import { Feature } from '../interfaces';
+import { Feature } from '../interfaces/places';
 import { MapContext, PlacesContext } from '../context';
 
 export const SearchResolve = () => {
